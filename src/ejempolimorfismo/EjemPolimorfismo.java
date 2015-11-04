@@ -10,8 +10,12 @@ public class EjemPolimorfismo {
         bolivar.setPuerta("El diametro de la puerta es: 2Mts Alto * 1Mt Ancho");
         hogar.setPuerta("El diametro de la puerta es: 1.70Mts Alto * 1Mt Ancho");
         
-        System.out.println("Edificio: "+bolivar.getPuerta());
-        System.out.println("Casa: "+hogar.getPuerta());
+        bolivar.setVentana(" /  El diametro de la ventana es: 1.50Mts Alto * 1Mt Ancho");
+        hogar.setVentana(" /  El diametro de la ventana es: 1Mt Alto * 1Mt Ancho");
+        
+        System.out.println("Edificio: "+bolivar.getPuerta() +bolivar.getVentana());
+        System.out.println("Casa: "+hogar.getPuerta() +hogar.getVentana());
+        
     }
     
 }
